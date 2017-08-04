@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    
+    src: 
+         url("fonts/OpenSans-Bold.ttf") format("truetype");
+        
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font1 {
+    font-family: OpenSans-Bold;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------*/
+root { 
+    display: block;
+}
+
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+    
+    
+}
+/*   фон сторінки ----------------------------------   */
+
+body {
+    background-color: #e5e5e5;
+    text-align: center;
+}
+/*   головний дів ----------------------------------   */
+
+#wrap {
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+    text-align: left;
+    
+}
+/*   голова ----------------------------------   */
+
+#head {
+    height: 100px;
+  
+   
+/*   меню ----------------------------------   */
+
+}
+#nav {
+    height: 50px;
+    background-image: url("img/head2.jpg");
+    background-repeat:no-repeat;
+    margin-bottom: 10px;
+  
+ 
+    
+}
+
+/*   Налаштування кнопок ----------------------------------   */
+#menu1 {
+	list-style:none;
+	width:1000px;
+	margin:0px auto;
+	height:50px;
+	padding:0px 0px 0px 0px;
+        
+       
+}
+#menu1 li {
+	float:left;
+	display:block;
+	text-align:center;
+	position:relative;
+	padding: 4px 5px 4px 5px;
+	margin-right:10px;
+	margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+	border:none;
+        
+        cursor: pointer;
+        font-family:Arial, Helvetica, sans-serif;
+	font-size:14px; 
+        font-weight: bold;
+	color: white;
+	outline :0;
+	text-decoration:none;
+	width: 170px;
+}
+
+#menu1 li:hover {
+	border: 1px solid #777777;
+	padding: 4px 4px 4px 4px;
+	background-color: #F4F4F4;
+	background: -moz-linear-gradient(top, #F4F4F4, #EEEEEE);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#EEEEEE));
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+        
+        font-weight: bold;
+	color:black;
+	
+}
+/*   кінець Налаштування кнопок ----------------------------------   */
+
+
+
+
+
+/*   середній дів ----------------------------------   */
+
+#middle {
+    width: 1000px;
+   
+    position: relative;
+}
+#middle:after {
+    content:'';
+    clear: both;
+    display: table;
+}
+/*   вміст середнього діва ----------------------------------   */
+
+#conteiner {
+    width: 750px;
+   
+    background-color: white;
+    float: left;
+    overflow: hidden;
+   
+}
+#content {
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+#conteiner1 {
+    width: 1000px;
+   
+    background-color: white;
+    float: left;
+    overflow: hidden;
+    
+}
+#content1 {
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+/*   правий дів ----------------------------------   */
+
+#rightaside {
+   
+    width: 250px;
+    
+    background-color: #e5e5e5;
+    float: left;
+    position: relative;
+}
+/*   нижній дів ----------------------------------   */
+
+#footer {
+    width: 1000px;
+    height: 100px;
+    text-align:center;      
+    margin-top: 10px;
+ 
+}
+
+/*   ссилки на соц мережі ----------------------------------   */
+
+#footblock {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 5px;
+    display: inline-block;
+    float: left;
+}
+
+/*   інформери ----------------------------------   */
+#informer {
+    margin: 10px 0px 0px 0px;
+  
+    
+}
+#informer1 {
+    background-color: white;
+    border: 1px solid #95cae9;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+
+
+#windows {
+
+    margin-bottom: 10px;
+    border: 0px;
+    width: 250px;
+    height: 100px;
+    
+}
+#andre {
+    padding: 0px 0px 0px 0px;
+ 
+}
+
+/*   Налаштування ссилок в тексті ----------------------------------   */
+
+
+
+a {
+    text-decoration: none;
+    color: blue;
+    
+ 
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+
+}
+p {
+    margin-top: 10px;
+}
+a img {
+ text-decoration: none; /* скрыть контур у ссылок-картинок */
+ border: none; 
+}
+
+/* відео по середині ------------------------------------------------------- */
+
+#video {
+    text-align: center;
+}
+/*------ реклама--------------------------------------------------*/
+#adv {
+    margin-top: 10px;
+}
